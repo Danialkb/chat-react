@@ -1,0 +1,16 @@
+.btn {
+    padding: 5px 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 14px;
+    border: 1px solid dodgerblue;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.btn:hover {
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+}

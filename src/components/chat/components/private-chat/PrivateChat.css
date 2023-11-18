@@ -1,0 +1,26 @@
+.messages-container {
+    width: 100%;
+}
+
+.messages {
+    height: 700px;
+    overflow-y: auto;
+}
+
+.send-msg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.msg-input {
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 0;
+}
+
+
+.msg-send-btn {
+    border-radius: 30px;
+    width: 15%;
+    height: 47px;
+}

@@ -1,0 +1,29 @@
+.chat-list {
+    padding: 10px;
+}
+
+.chat-wrapper {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.chat:hover {
+    background-color: rgb(240, 240, 240);
+    border: None;
+    border-radius: 10px;
+    transition: ease-in-out 0.4s;
+}
+
+.selected-chat {
+    background-color: rgb(240, 240, 240);
+    border: None;
+    border-radius: 10px;
+}

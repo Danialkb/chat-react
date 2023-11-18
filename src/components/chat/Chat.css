@@ -1,0 +1,19 @@
+.chat-list-container {
+    width: 500px;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+
+.parent-container {
+    display: flex;
+}
+
+.chat-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

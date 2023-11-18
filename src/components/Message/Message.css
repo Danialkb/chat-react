@@ -1,0 +1,22 @@
+.message-username {
+    color: dodgerblue;
+    margin-top: 0;
+}
+
+.message-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    max-width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.message-container h5, p{
+    margin-bottom: 0;
+}
+
+.message-time {
+    font-size: 14px;
+}
